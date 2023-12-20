@@ -39,7 +39,6 @@ export class ReactSerializer extends BaseSerializer implements Serializer {
     if (this.isDynamic(name)) {
       return this.dynamicProp(name);
     }
-    if (!value) return "";
     return `${name}={${value}}`;
   }
 
