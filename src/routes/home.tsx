@@ -17,7 +17,7 @@ const HomePage = () => {
   return (
     <>
       <GoAHeroBanner
-        heading="Design your service using reusable guidelines, tokens, components,
+        heading="Design your product using reusable guidelines, tokens, components,
         and patterns."
         maxContentWidth={MAX_CONTENT_WIDTH}
       >
