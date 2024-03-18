@@ -27,7 +27,6 @@ export default function ColorPage() {
       <GoATable variant="normal" width="100%">
         <thead>
           <tr>
-            <th>Type</th>
             <th></th>
             <th>Token</th>
             <th>Hex value</th>
