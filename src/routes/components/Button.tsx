@@ -273,7 +273,7 @@ export default function ButtonPage() {
         </a>
       </p>
           <h2>Types</h2>
-            <h3>There are 5 types of buttons: Primary, Secondary, Tertiary, Start,  and Destructive.</h3>
+            <h3>There are 5 types of buttons: Primary, Secondary, Tertiary, Start, and Destructive.</h3>
             <p>More text</p>
             
       <GoAContainer>
@@ -302,11 +302,11 @@ export default function ButtonPage() {
             type="do"
             description="Use a primary button for the primary action on the page. For citizen 
             facing applications there should generally only be one primary button on a page.">
-            
+            <p>image</p>
           </DoDont>
           
           <DoDont type="dont" description="Don’t use two primary buttons.">
-            
+            <p>image</p>
           </DoDont>
         </GoAGrid>
 
@@ -315,7 +315,7 @@ export default function ButtonPage() {
           type="do"
           description="Use a start button for the main call to action on your service’s 
           start page. This is the “front door” to your service on Alberta.ca.">
-          
+          <p>image</p>
         </DoDont>
       </GoAGrid>
       </div>
@@ -339,11 +339,11 @@ export default function ButtonPage() {
             type="do"
             description="Use a primary button for the primary action on the page. For citizen 
             facing applications there should generally only be one primary button on a page.">
-            
+            <p>image</p>
           </DoDont>
           
           <DoDont type="dont" description="Don’t use two primary buttons.">
-            
+           <p>image</p> 
           </DoDont>
         </GoAGrid>
       </div>
