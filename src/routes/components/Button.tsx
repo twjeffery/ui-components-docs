@@ -274,19 +274,19 @@ export default function ButtonPage() {
             
       <GoAContainer>
         <GoAButtonGroup alignment="start">
-            <GoAButton type="primary" onClick={onClick}>
+            <GoAButton type="primary" onClick={noop}>
               Primary
             </GoAButton>
-            <GoAButton type="secondary" onClick={onClick}>
+            <GoAButton type="secondary" onClick={noop}>
               Secondary
             </GoAButton>
-            <GoAButton type="tertiary" onClick={onClick}>
+            <GoAButton type="tertiary" onClick={noop}>
               Tertiary
             </GoAButton>
-              <GoAButton type="start" onClick={onClick}>
+              <GoAButton type="start" onClick={noop}>
               Start
             </GoAButton>
-              <GoAButton type="primary" variant="destructive" onClick={onClick}>
+              <GoAButton type="primary" variant="destructive" onClick={noop}>
               Destructive
             </GoAButton>
         </GoAButtonGroup>
