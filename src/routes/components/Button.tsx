@@ -258,12 +258,107 @@ export default function ButtonPage() {
 
           <GoATab
             heading={
-              <>
-                Design guidelines
-                <GoABadge type="information" content="In progress" />
-              </>
+              <>Design guidelines</>
             }>
-            <p>Coming Soon</p>
+      <p>
+        <a
+          href="https://www.figma.com/design/3pb2IK8s2QUqWieH79KdN7/%E2%9D%96-Component-library-%7C-DDD?node-id=420-6810"
+          target="_blank">
+          View component in Figma
+        </a>
+      </p>
+          <h2>Types</h2>
+            <h3>There are 5 types of buttons: Primary, Secondary, Tertiary, Start,  and Destructive.</h3>
+            <p>More text</p>
+            
+      <GoAContainer>
+        <GoAButtonGroup alignment="start">
+            <GoAButton type="primary" onClick={onClick}>
+              Primary
+            </GoAButton>
+            <GoAButton type="secondary" onClick={onClick}>
+              Secondary
+            </GoAButton>
+            <GoAButton type="tertiary" onClick={onClick}>
+              Tertiary
+            </GoAButton>
+              <GoAButton type="start" onClick={onClick}>
+              Start
+            </GoAButton>
+              <GoAButton type="primary" variant="destructive" onClick={onClick}>
+              Destructive
+            </GoAButton>
+        </GoAButtonGroup>
+      </GoAContainer>
+
+      <div className="dodont-wrapper">
+        <GoAGrid minChildWidth={minGridWidth} gap="2xl">
+          <DoDont
+            type="do"
+            description="Use a primary button for the primary action on the page. For citizen 
+            facing applications there should generally only be one primary button on a page.">
+            
+          </DoDont>
+          
+          <DoDont type="dont" description="Don’t use two primary buttons.">
+            
+          </DoDont>
+        </GoAGrid>
+
+      <GoAGrid minChildWidth={minGridWidth} gap="2xl" mt="2xl" mb="3xl">
+        <DoDont
+          type="do"
+          description="Use a start button for the main call to action on your service’s 
+          start page. This is the “front door” to your service on Alberta.ca.">
+          
+        </DoDont>
+      </GoAGrid>
+      </div>
+             
+      <GoADivider></GoADivider>
+
+      <h2>Accessibility</h2>
+        <h3>Users with visual impairment often use screen readers and other assistive 
+          technology to help them navigate a service.</h3>
+        <p>
+        <a
+          href="https://w3c.github.io/wcag/understanding/target-size-minimum.html"
+          target="_blank">
+          View more information on web accessibility from WCAG
+        </a>
+      </p>
+
+             <div className="dodont-wrapper">
+        <GoAGrid minChildWidth={minGridWidth} gap="2xl">
+          <DoDont
+            type="do"
+            description="Use a primary button for the primary action on the page. For citizen 
+            facing applications there should generally only be one primary button on a page.">
+            
+          </DoDont>
+          
+          <DoDont type="dont" description="Don’t use two primary buttons.">
+            
+          </DoDont>
+        </GoAGrid>
+      </div>
+
+      <GoADivider></GoADivider>
+
+      <GoAContainer type="non-interactive" accent="filled" padding="relaxed">
+        <h2>
+          <a
+          href="https://www.figma.com/design/jDsIoiKh5ViZRWJdS0Dgtf/Component---Button?t=Ub6ZLMiI17pE4Rhe-1"
+          target="_blank">
+          Design contribution file
+        </a>
+        </h2>
+        <p>
+          Propose changes, contribute new ideas, and see the research and iterations 
+          that has gone into the current design.
+        </p>
+    </GoAContainer>
+            
           </GoATab>
         </GoATabs>
       </ComponentContent>
