@@ -12,6 +12,7 @@ import {
   GoATabs,
   GoAContainer
 } from "@abgov/react-components";
+import { DoDont } from "@components/do-dont/DoDont";
 import { Sandbox, ComponentBinding } from "@components/sandbox";
 import { CodeSnippet } from "@components/code-snippet/CodeSnippet";
 import { GoAModal } from "@components/mock-modal/Modal";
