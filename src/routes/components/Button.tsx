@@ -130,6 +130,7 @@ export default function ButtonPage() {
     },
   ];
   const noop = () => { };
+  const minGridWidth = "36ch";
 
   function SandboxOnChange(bindings: ComponentBinding[], props: Record<string, unknown>) {
     setButtonBindings(bindings);
