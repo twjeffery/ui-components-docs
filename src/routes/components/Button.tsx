@@ -271,7 +271,7 @@ export default function ButtonPage() {
           View component in Figma
         </a>
       </p>
-          <h2>Types</h2>
+          <h2 id="types">Types</h2>
             <h3>There are 5 types of buttons: Primary, Secondary, Tertiary, Start, and Destructive.</h3>
             <p>More text</p>
             
@@ -321,7 +321,7 @@ export default function ButtonPage() {
              
       <GoADivider></GoADivider>
 
-      <h2>Accessibility</h2>
+      <h2 id="accessibility">Accessibility</h2>
         <h3>Users with visual impairment often use screen readers and other assistive 
           technology to help them navigate a service.</h3>
         <p>
@@ -350,13 +350,13 @@ export default function ButtonPage() {
       <GoADivider></GoADivider>
 
       <GoAContainer type="non-interactive" accent="filled" padding="relaxed">
-        <h2>
+        <h3>
           <a
           href="https://www.figma.com/design/jDsIoiKh5ViZRWJdS0Dgtf/Component---Button?t=Ub6ZLMiI17pE4Rhe-1"
           target="_blank">
           Design contribution file
         </a>
-        </h2>
+        </h3>
         <p>
           Propose changes, contribute new ideas, and see the research and iterations 
           that has gone into the current design.
