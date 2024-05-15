@@ -319,7 +319,7 @@ export default function ButtonPage() {
       </GoAGrid>
       </div>
              
-      <GoADivider></GoADivider>
+      <GoADivider mt="3xl" mb="3xl"></GoADivider>
 
       <h2 id="accessibility">Accessibility</h2>
         <h3>Users with visual impairment often use screen readers and other assistive 
@@ -347,7 +347,7 @@ export default function ButtonPage() {
         </GoAGrid>
       </div>
 
-      <GoADivider></GoADivider>
+      <GoADivider mt="3xl" mb="3xl"></GoADivider>
 
       <GoAContainer type="non-interactive" accent="filled" padding="relaxed">
         <h3>
@@ -362,6 +362,8 @@ export default function ButtonPage() {
           that has gone into the current design.
         </p>
     </GoAContainer>
+
+    <GoADivider mt="3xl" mb="3xl"></GoADivider>
             
           </GoATab>
         </GoATabs>
