@@ -272,7 +272,7 @@ export default function ButtonPage() {
         </a>
       </p>
           <h2 id="types">Types</h2>
-            <h3>There are 5 types of buttons: Primary, Secondary, Tertiary, Start, and Destructive.</h3>
+            <h3>There are 5 types of buttons: Primary, Secondary, Tertiary, Get started, and Destructive.</h3>
             <p>More text</p>
             
       <GoAContainer>
@@ -349,6 +349,7 @@ export default function ButtonPage() {
 
       <GoADivider mt="3xl" mb="3xl"></GoADivider>
 
+      <h2 id="contribution" style="display:none">Design contribution</h2>
       <GoAContainer type="non-interactive" accent="filled" padding="relaxed">
         <h3>
           <a
