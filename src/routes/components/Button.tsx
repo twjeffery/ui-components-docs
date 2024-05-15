@@ -363,7 +363,7 @@ export default function ButtonPage() {
         </p>
     </GoAContainer>
 
-    <GoADivider mt="3xl" mb="3xl"></GoADivider>
+    <GoADivider mt="3xl" mb="xl"></GoADivider>
             
           </GoATab>
         </GoATabs>
