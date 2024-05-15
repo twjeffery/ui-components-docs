@@ -349,7 +349,7 @@ export default function ButtonPage() {
 
       <GoADivider mt="3xl" mb="3xl"></GoADivider>
 
-      <h2 id="contribution" style="display:none">Design contribution</h2>
+      <h2 id="contribution">Design contribution</h2>
       <GoAContainer type="non-interactive" accent="filled" padding="relaxed">
         <h3>
           <a
