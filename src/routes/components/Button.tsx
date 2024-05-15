@@ -355,7 +355,7 @@ export default function ButtonPage() {
           <a
           href="https://www.figma.com/design/jDsIoiKh5ViZRWJdS0Dgtf/Component---Button?t=Ub6ZLMiI17pE4Rhe-1"
           target="_blank">
-          Design contribution file
+          Figma contribution file
         </a>
         </h3>
         <p>
