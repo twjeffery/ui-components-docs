@@ -272,8 +272,7 @@ export default function ButtonPage() {
         </a>
       </p>
           <h2 id="types">Types</h2>
-            <h3>There are 5 types of buttons: Primary, Secondary, Tertiary, Get started, and Destructive.</h3>
-            <p>More text</p>
+            <h3>There are 5 types of buttons: primary, secondary, tertiary, start, and destructive.</h3>
             
       <GoAContainer>
         <GoAButtonGroup alignment="start">
@@ -287,7 +286,7 @@ export default function ButtonPage() {
               Tertiary
             </GoAButton>
               <GoAButton type="start" onClick={noop}>
-              Start
+              Get started
             </GoAButton>
               <GoAButton type="primary" variant="destructive" onClick={noop}>
               Destructive
