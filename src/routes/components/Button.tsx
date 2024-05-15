@@ -149,7 +149,7 @@ export default function ButtonPage() {
 
       <ComponentContent tocCssQuery="goa-tab[open=true] :is(h2[id], h3[id])">
         <GoATabs>
-          <GoATab heading="Code examples">
+          <GoATab heading="Examples">
             {/*Button Sandbox*/}
             <h2 id="component" style={{display: "none"}}>Component</h2>
             <Sandbox properties={buttonBindings} onChange={SandboxOnChange}>
