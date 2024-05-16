@@ -148,7 +148,13 @@ export default function ButtonPage() {
       />
 
       <ComponentContent tocCssQuery="goa-tab[open=true] :is(h2[id], h3[id])">
+
+        
         <GoATabs>
+
+          
+  {/*Code Examples-----------------------------------------------------------------------*/}
+          
           <GoATab heading="Examples">
             {/*Button Sandbox*/}
             <h2 id="component" style={{display: "none"}}>Component</h2>
@@ -259,7 +265,10 @@ export default function ButtonPage() {
               </GoAButtonGroup>
             </Sandbox>
           </GoATab>
-
+ 
+          
+  {/*Design guidelines-----------------------------------------------------------------------*/}
+          
           <GoATab
             heading={
               <>Design guidelines</>
