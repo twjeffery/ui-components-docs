@@ -88,6 +88,19 @@ code.inline {
   background-color: var(--goa-color-greyscale-100);
 }
 
+.documentation-container {
+  padding: 48px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img.documentation-container {
+  padding: 0;
+}
+
 /*Desktop*/
 @media screen and (min-width: 1232px) {
   tbody {
