@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { format } from "date-fns"; // <-- import date-fns
 import {
-  GoABadge,
   GoABlock,
   GoAButton,
   GoAButtonGroup, GoADivider,
