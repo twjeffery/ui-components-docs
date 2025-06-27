@@ -687,7 +687,9 @@ export default function TextFieldPage() {
                   code={`
                 // reactive code
                 export class SomeComponent {
-                  itemFormCtrl = new FormControl("");
+                  form = new FormGroup({
+                    item: new FormControl("")
+                  });
                 }
               `}
                 />
