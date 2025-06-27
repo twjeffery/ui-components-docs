@@ -113,7 +113,7 @@ export const TabsSetSpecificTabActiveExample = () => {
           tags="angular"
           allowCopy={true}
           code={`
-            <goa-tabs initialTab={1}>
+            <goa-tabs initialtab="1">
               <goa-tab>
                 <div slot="heading">All</div>
                 <goa-table width="100%">
